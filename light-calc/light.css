@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body{
+    /* width: 100vw;
+    height: 100vh; */
+    padding: 15px;
+    background-color: beige;
+}
+/* CALC TOP SIDE */
+.calcs-body{
+    width: 400px;
+    /* padding: 15px; */
+    background-color: #fff;
+    /* border: 1px solid red; */
+    border-radius: 20px 30px;
+}
+.calcs{
+    display: flex; 
+    flex-direction: column;
+    padding: 25px;
+}
+.light-side-top{
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+}
+.calc-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.empty-div{
+    width: 40%;
+}
+.light-dark{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #A9DCFD;
+    padding: 0 15px;
+    border-radius: 20px;
+}
+.light-mode{
+    background-color: #D8EEFF;
+    border-radius: 20px;
+    padding: 3px 20px;
+}
+.light{
+    margin-top: 2px;
+}
+.dark-mode{
+    padding: 5px 35px 2px 0px;
+}
+.history{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* CALC TOP SIDE END*/
+
+/* CLAC RESULT SIDE  */
+
+.result-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.operation{
+    display: flex;
+    justify-content: end;
+    color: gray;
+}
+.equal{
+    font-size: 1.5em;
+}
+.result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* CLAC RESULT SIDE END */
+
+
+/* CLAC NUMBER SIDE  */
+
+.numbers-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    background-color: #A9DCFD;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+.numbers-left-side{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.top-operators{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.operator{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    transition: all .2s;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+.number{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: 1px solid #fff;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .2s;
+}
+.numbers-right-side{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #fff;
+    border-radius: 35px;
+}
+.main-operator{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.operator:hover{
+    transform: scale(1.2);
+    background-color: #D8EEFF;
+}
+.number:hover{
+    transform: scale(1.2);
+    background-color: #D8EEFF;
+}
+.main-operator:hover{
+    transform: scale(1.2);
+    background-color: #D8EEFF;
+}
+
+/* CLAC NUMBER SIDE END */
+
+/* BOTTOM LINE */
+.bottom-line{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.line{
+    width: 45%;
+    height: 5px;
+    background-color: #6396C5;
+    margin-top: 30px;
+    border-radius: 10px;
+}
